@@ -9,6 +9,9 @@
       "email": "zoe@travelskope.com"
     }
   ],
+  "scripts": {
+    "test": "./vendor/bin/phpunit tests/"
+  },
   "require": {
     "php": ">=7.0"
   },
