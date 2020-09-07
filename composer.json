@@ -10,7 +10,7 @@
     }
   ],
   "scripts": {
-    "test": "./vendor/bin/phpunit tests/"
+    "test": "./vendor/bin/phpunit --colors=always --testdox tests/"
   },
   "require": {
     "php": ">=7.0"
@@ -21,6 +21,11 @@
   "autoload": {
     "psr-4": {
       "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "tests/"
     }
   }
 }
