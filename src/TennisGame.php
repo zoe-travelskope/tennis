@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Tennis
+class TennisGame
 {
     public function getScore(): string
     {

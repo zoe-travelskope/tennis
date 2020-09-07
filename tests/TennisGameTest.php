@@ -4,7 +4,7 @@ namespace Test;
 
 use PHPUnit\Framework\TestCase;
 
-class TennisTest extends TestCase
+class TennisGameTest extends TestCase
 {
 
 }
