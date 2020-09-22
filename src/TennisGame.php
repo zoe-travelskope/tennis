@@ -4,7 +4,7 @@ namespace App;
 
 class TennisGame
 {
-    public function getScore(): string
+    public function score(): string
     {
 
     }
